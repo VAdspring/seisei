@@ -11,10 +11,20 @@
     border-right: 1px solid rgb(52, 63, 77);
     height: 100%;
     padding-top: 10px;
+    display: inline-block;
+    cursor: pointer;
+    vertical-align: top;
 }
 
 #listImages{
     width: 70%;
+    display: inline-block;
+    vertical-align: top;
+    overflow-x: auto;
+    overflow-y: hidden;
+    height:100px;
+    white-space: nowrap;
+
 }
 
 #dropzone{
@@ -23,4 +33,30 @@
     height: 80px;
     width: 90%;
     margin:auto;
+}
+
+.imagePreview{
+    display: inline-block;
+    position: relative;
+}
+
+#files{
+    display: none;
+}
+
+.imagePreview img{
+    margin:10px;
+    height: 70px;
+    width: 70px;
+}
+
+
+.imagePreview .size{
+    position: absolute;
+    line-height: 70px;
+    top:0;
+    left:0;
+    margin: 10px;
+    color: white;
+    width: 70px;
 }
