@@ -118,7 +118,7 @@ Main Page Content
 
   .cd-main-content .content-wrapper .picture{
     padding-top: 55px;
-    background-color: rgb(52, 63, 77);
+    background-color: rgb(45, 52, 61);
   }
 
   .cd-main-content .content-wrapper .color{
@@ -167,7 +167,7 @@ Main Page Content
 
 
   .cd-main-content .content-wrapper p a:hover {
-    background-color: #c3b411;  
+    background-color: #9bc14a;  
   }
 }
 
@@ -338,9 +338,9 @@ Header
     margin: 16px 0 0 36px;
   }
   .logo_round img {
-    width: 180px;
+    width: 130px;
     height: auto;
-    padding: 10px 0 10px 0;
+    margin: auto;
     display: block;
   }
 }
@@ -679,9 +679,10 @@ Sidebar
   border-radius: .55em;
   border: 1px #33383e solid;
   text-align: center;
-  color: #000000;
+  color: #ffffff;
   font-weight: 700;
   font-size: 0.7em;
+  background-color: #9bc14a;
 }
 
 
@@ -757,6 +758,33 @@ Sidebar
     right: auto;
     color: transparent;
   }
+
+  .cd-side-nav .welcome {
+    display: block;
+    font-size: 1.6rem;
+    font-family: 'Rubik', sans-serif;
+    padding: 2px;
+    font-weight: 300;
+    color: #b4aea7;
+  }
+
+  .cd-side-nav .cube {
+    background-color: #f3f3f3;
+    width: 30px;
+    height: 30px;
+    margin: 5px 5px;
+    display: inline-block;
+  }
+
+  .cd-side-nav .pickFont {
+        display: block;
+        font-size: 1.2rem;
+        font-family: 'Rubik', sans-serif;
+        padding: 2px;
+        font-weight: 300;
+
+  }
+
 }
 @media only screen and (min-width: 1170px) {
   .cd-side-nav {
