@@ -113,11 +113,10 @@ Main Page Content
 
 @media only screen and (min-width: 768px) {
   .cd-main-content .content-wrapper {
-    margin-left: 110px;
+    margin-left: 230px;
   }
 
   .cd-main-content .content-wrapper .picture{
-    margin-left: 110px;
     padding-top: 55px;
     background-color: rgb(52, 63, 77);
   }
